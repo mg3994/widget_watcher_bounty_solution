@@ -56,6 +56,18 @@ class Tuple4<A, B, C, D> {
   }
 }
 ```
+
+
+# How to use 
+* in init state just add this
+  ```dart
+   WidgetsBinding.instance.addPersistentFrameCallback((timeStamp) {
+      List txtfrm = findWidgets<TextFormField>(WidgetType.input);
+      print(txtfrm.length.toString());
+    });
+  ```
+
+  # as I think we should not use Set as On scroll the position Changes , So The Above code gives Extra Flexibility
 # How to use
 ```dart
    List txtfrm = findWidgets<TextFormField>(WidgetType.input);
