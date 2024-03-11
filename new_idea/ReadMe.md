@@ -68,7 +68,8 @@ class Tuple4<A, B, C, D> {
 ```
 
 2. In init state of class WidgetWatcher add
-   ```
+
+```dart
    class WidgetWatcher extends StatefulWidget {
    .........
 
@@ -80,6 +81,7 @@ class Tuple4<A, B, C, D> {
       //..... If possible change it to your  WidgetDescription ..... but leave it for now ....
       print(txtfrm.toString());
     });
+```
 
 
 # Output
